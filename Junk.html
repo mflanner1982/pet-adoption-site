@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<header> <!--  ******* HEADER OPEN ********** --> 
+  Fake Adoption Site - Junk Page <BR>
+    <title> Title home page 
+    </title>
+      <link rel="stylesheet" href="adoption.css">
+      <script src="skeleton.js" type="text/javascript"></script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</header> <!--  ******* HEADER CLOSED********** -->
+
+<body>  <!--  ******* BODY OPEN ********** -->
+  <div id="box"> 
+    <div id="wrapper"> <!-- wrapper1 open --> 
+      <div id="hero">
+        
+    <!-- ***************** Navigation Bars *************** -->
+          <nav>  <br>
+              <ul>
+                <li> <a href="index.html">Home</a>   <br> </li>
+                <li> <a href="Dog2Choose.html">Dogs</a>  <br> </li>
+                <li> <a href="Cats2Choose.html">Cats</a>  <br> </li>
+                <li> <a href="Donations.html">Donations</a>  <br> </li>
+                <li> <a href="ContactUs.html">Contact Us</a>  </li>
+                <li> <a href="Junk.html">Junk Page</a> </li>  
+              </ul> <br>
+          </nav> 
+    <!-- ***************** Navigation Bars Closed *************** -->
+
+<!-- ***************** filters ***************-->
+<!-- Control buttons -->
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')">Show all</button>
+  <button class="btn" onclick="filterSelection('DonateMoney')">Ways to Donate Money</button>
+  <button class="btn" onclick="filterSelection('DonateOther')">Other Donations</button>
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container3">
+  <div class="filterDiv DonateMoney">Check</div>
+  <div class="filterDiv DonateMoney">Paypal</div>
+  <div class="filterDiv DonateMoney">Visa</div>
+  <div class="filterDiv DonateMoney">MasterCard</div>
+  <div class="filterDiv DonateMoney">Discover</div>
+  <div class="filterDiv DonateOther">Food</div>
+  <div class="filterDiv DonateOther">Supplies</div>
+  <div class="filterDiv DonateOther">Volunteer</div>
+</div>
+
+<!-- ***************** filters ***************-->
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+<div id="myBtnContainer">
+  <br>
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('ViewCatGender')">Filter by Gender</button>
+  <button class="btn" onclick="filterSelection('ViewCatAge')">Filter by Age</button>
+  <button class="btn" onclick="filterSelection('ViewCatBreed')">Filter by Breed</button>
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container">
+  <div class="filterDiv ViewCats">All Cats</div>
+  <div class="filterDiv ViewCatGender">Male Cats</div>
+  <div class="filterDiv ViewCatGender">Female Cats</div>
+  <div class="filterDiv ViewCatAge">Kitty Cats</div>
+  <div class="filterDiv ViewCatAge">Senior Cats</div>
+  <div class="filterDiv ViewCatBreed">Siamese</div>
+  <div class="filterDiv ViewCatBreed">Tabby</div>
+  <div class="filterDiv ViewCatBreed">Gizmos</div>
+</div>
+
+
+<div id="maxhero"></div>
+ <!--- <img src="trail.jpg"  alt = "marker.img" height = "100%" width = "100%"> </img> </div> -->
+ <!-- <img src="coast.jpg"  height = "100%" width = "100%"> </img> </div> -->
+<main> 
+  <h2>
+    Fake Adoption Site -  Junk page
+  </h2>
+  
+  <h3>
+       figure out how to add filters for gender/ age/ breed/ etc. <br>
+       links to different events with blurbs  <br>
+      </span>
+    </p>
+  </h3>
+  
+<!-- Connect to JS-->
+<p id="demo">Connect to JS</p>
+<button type="button" onclick="myFunction()">Change Message</button>
+<!-- Connect to JS-->
+
+<h3>
+        ways to just give $<br><br>
+        ways to donate equipment   
+       </span>
+     </p>
+  </h3>
+  
+ 
+
+  <h3>
+        pictures of facility <br><br>
+        ways to volunteer
+       </span>
+     </p>
+  </h3>
+
+  <h3>
+    IDEAS 
+    HOME PAGE 
+    - LOGIN IN AS ADMIN - ADD / REMOVE / EDIT ANIMALS <br><br>
+    - LOGIN AS SUPPORTER - SEND MESSAGE / DONATIONS/ 
+    - CREATE ACCOUNT
+
+    AVAILABLE DOGS 
+    - FILTERS BY GENDER / AGE / BREED
+
+    DONATIONS - ACCEPT DIFFERENT KINDS
+   </span>
+ </p>
+</h3>
+</main>
+
+<footer>
+    Copyright &copy; 2023 Fake Adoption Site <br>
+    Maureen Flannery  <br>
+    <span style="color: #002171"> 
+    Maureen.Flannery@tri-c.edu
+    </span> 
+</footer>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,210 @@
+* {box-sizing: border-box; }
+
+body {     /*   entire site INCLUDES HEADER  */ 
+    background-color: white;  
+    font-size: 30px; 
+    color: #0f120c; /* text color */
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(30, 11, 234); 
+    border-width: 10px; 
+    border-style: solid; 
+    }
+
+    header{   /*   WEBSITE TITLE BANNER   */ 
+      letter-spacing: .25em;
+      margin-top: 0px;
+      text-align: center;  
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      padding-left: 3em;
+      background-color: navy;
+      color: white;  
+  } 
+
+#wrapper {
+    background-image: white; 
+    /* linear-gradient(to bottom, #98abf6,rgb(241, 231, 241)); */
+   }
+   
+nav {  
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    font-size: 75%;
+    } 
+
+nav ul {
+    list-style-type: none;
+    font-size: 2.2em; 
+    margin: 0;
+    padding-left: 0;
+
+    } 
+
+nav li {
+  border-bottom: #e0299a 1px solid;
+    }    
+
+nav a:link{color: #5c7fa3}
+nav a:visited {color: #344873}
+nav a:hover {color: #a52a2a}
+
+main {
+font-size: 20px; 
+overflow: auto;
+background-color: white;
+padding: 1px;
+overflow: auto;
+}  
+
+h1 {     /* dogs names at top of page */
+
+  padding-left: 2em; 
+  padding-right: 2em; 
+  color: navy;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center; 
+  }
+
+h2 {   
+Font-size: 30px; 
+font-family: Georgia, 'Times New Roman', Times, serif; 
+border-color: pink; 
+border-width: 25px; 
+border-style: solid; 
+}
+
+h3 {     
+
+padding-left: 2em; 
+padding-right: 2em; 
+color: navy;  
+font-family: Georgia, 'Times New Roman', Times, serif;
+border-color: rgb(105, 181, 228);  
+border-width: 25px; 
+border-style: solid; 
+}
+
+h4 {   
+color: #293a4a;
+Font-size: 30px; 
+font-family: Georgia, 'Times New Roman', Times, serif;
+border-color: rgba(110, 238, 185, 0.886); 
+border-width: 15px; 
+border-style: solid; 
+}
+
+h5 {   
+  color: navy;
+  Font-size: 30px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center; 
+
+  }
+
+dt {  /*   4 Bullet points in naration   */
+font-size: 40px; 
+color: navy;  
+background-repeat: no-repeat;
+text-align: center; 
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+/*  ******** does something to FILL IN ALL OF BODY ******88  */ 
+div {   /*  does something to separate navation pane  */ 
+font-size: .90em;
+color: #333333;
+}  
+
+footer {
+text-align: center;
+font-style: italic;
+font-size: 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: #ffffff; 
+}
+ 
+#borishero {
+background-image: url(borisGutcopy.jpg);
+height: 400px;
+width: 300;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+/* ****** DATA FOR home tabs to be horizonal  ****** */
+@media (min-width: 600px) {
+  nav ul { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around }
+  nav li {
+    border-bottom: pink; }
+}
+@media (min-width: 1024px) {   
+}
+
+table {border: 2px solid #3399CC; text-align: left;}
+td {padding: 0.5em; border: 2px solid #33cc5e;text-align: left; }
+th {padding: 0.5em; border: 2px solid #3399CC; text-align: center; }
+tr:nth-of-type(odd){background-color: #f5fafc;}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px; }
+
+#container1 {  
+    background-color: white;
+    position: relative;
+    font-size: 40px;
+    color: navy;
+    text-align: center; 
+    }
+
+.container2 {  /* Action button near top of page */ 
+      text-align: center;
+      border: 250px; 
+      height: 100px;
+      position: relative;
+      margin: 0 auto;
+      display: inline;
+      
+    }
+
+    #container4 {
+      text-align: center;
+      font-style: italic;
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-color: #bae0f0; 
+    }
+
+    button {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      position: relative;  
+      color: white;
+      font-size: 24px;
+      border-radius: 40px;
+      margin: 0 auto;
+      display: inline;
+      outline: none;
+      padding: 6px 12px;
+      background-color:  #002171;
+
+  .filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+  }
+
+}

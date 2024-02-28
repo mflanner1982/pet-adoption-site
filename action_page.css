@@ -1,0 +1,171 @@
+/* -- ***** W3 SCHOOL OPEN ****** -- */
+
+/* Bordered form */
+form {
+  border: 3px solid #cb5454;
+}
+
+/****************************** from adoption.css ********************/
+
+* {box-sizing: border-box; }
+
+body {     /*   entire site INCLUDES HEADER  */ 
+    background-color: white;  
+    font-size: 30px; 
+    color: #0f120c; /* text color */
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(30, 11, 234); 
+    border-width: 10px; 
+    border-style: solid; 
+    }
+
+header{   /*   WEBSITE TITLE BANNER   */ 
+    letter-spacing: .25em;
+    margin-top: 0px;
+    text-align: center;  
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    background-color: navy;
+    color: white;  
+} 
+
+#wrapper {
+    background-image: white; 
+    /* linear-gradient(to bottom, #98abf6,rgb(241, 231, 241)); */
+   }
+
+nav {  
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    font-size: 75%;
+    } 
+
+nav ul {
+    list-style-type: none;
+    font-size: 2.2em; 
+    margin: 0;
+    padding-left: 0;
+
+    } 
+
+nav li {
+  border-bottom: #e0299a 1px solid;
+    }    
+
+nav a:link{color: #5c7fa3}
+nav a:visited {color: #344873}
+nav a:hover {color: #a52a2a}
+
+/*  ******** does something to FILL IN ALL OF BODY ******88  */ 
+div {   /*  does something to separate navation pane  */ 
+    font-size: .90em;
+    color: #333333;
+    }  
+
+    /* ****** DATA FOR home tabs to be horizonal  ****** */
+@media (min-width: 600px) {
+    nav ul { 
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around }
+    nav li {
+      border-bottom: pink; }
+  }
+  @media (min-width: 1024px) {   
+  }
+  
+  table {border: 2px solid #3399CC; text-align: left;}
+  td {padding: 0.5em; border: 2px solid #33cc5e;text-align: left; }
+  th {padding: 0.5em; border: 2px solid #3399CC; text-align: center; }
+  tr:nth-of-type(odd){background-color: #f5fafc;}
+
+/****************************** from adoption.css ********************/
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 25%;
+  border-radius: 10%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }}
+
+
+
+
+/* -- ***** W3 SCHOOL CLOSED ****** -- */
+
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff; 
+    }
+
+#container4 {
+        text-align: center;
+        font-style: italic;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #bae0f0; 
+      }

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>
+
+  Fake Adoption Site
+</title>
+<link rel="stylesheet" href="Adoption.css">
+<script src="Adoption.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+  <div id="box">
+    <div id="wrapper">
+      <div id="hero">
+        <div id="container">
+  <h1> 
+    Fake Adoption Site - Request Appointment to Meet a Dog
+  </h1>
+
+  </div>
+
+  <nav>
+    <ul>                   
+    <li> <a href="index.html">Home</a>    </li>
+    <li> <a href="Dog2Choose.html">Available Dogs</a>    </li>
+    <li> <a href="Cats2Choose.html">Available Cats</a>  <br> </li>
+    <li> <a href="Donations.html">Donations</a>  </li>
+    <li> <a href="ContactUs.html">Contact Us</a> </li>         
+    <li> <a href="Junk.html">Junk Page</a> </li>             
+    </ul>
+ </nav> 
+ <!-- ***************** filters ***************-->
+<!-- Control buttons -->
+<div id="myBtnContainer">
+  <br>
+  <button class="btn" onclick="filterSelection('ContactUs')"> Contact Us</button>
+  <br>
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container">
+  <div class="filterDiv ContactUs">By Phone</div>
+  <div class="filterDiv ContactUs">By Email</div>
+  <div class="filterDiv ContactUs">By FaceBook</div>
+</div>
+<!-- ***************** filters ***************-->
+<br>
+<img src="Dolly.jpg"  height = "100%" width = "100%"> </img> </div> 
+        <main> 
+        <h2>
+        Reservations for a Dog
+        </h2>
+            
+        <h3>
+        Contact Us Today! <br><br>
+        </h3>  
+
+        <h4> 
+        Required fields ar marked with an asterisk *. 
+        </h4>      
+        <img src="boris1.jpg" alt="Boris Selfie" style = height:400px; width: 600px;> </img> </div>
+      
+        <form method = "post" action = "https://webdevbasics.net/scripts/pacific.php">
+                    <label for = "myFName">*First Name:</label>
+                    <input type = "text" name = "myFName" id = "myFName" required> 
+                    <label for = "myLName">*Last Name:</label>
+                    <input type = "text" name = "myLName" id = "myLName" required> 
+                    <label for = "myEmail">*E-mail:</label> 
+                    <input type = "email" name = "myEmail" id = "myEmail" required> 
+                    <label for = "phone">Phone:</label> 
+                    <input type = "tel" name = "phone" id = "phone" max = "12"> 
+                    <label for = "arrivalDate">Arrival Date:</label>
+                    <input type = "date" name = "arrivalDate" id = "arrivalDate"> 
+                    <label for = "nights">Nights:</label>
+                    <input type = "number" name = "nights" id = "nights" min = "0" max = "14"> 
+                    <label for = "myComments">Comments:</label>
+                    <textarea name = "myComments"  id = "myComments" rows = "2" cols = "30"> </textarea> 
+                    <input type = "submit" value = "Submit">
+        </form>
+        
+        <div>
+            <br><br>
+            <span style="color: #1976D2"><i>Pacific Trails Resort</i>
+            </span>
+            <span style="color: #555555"> 
+            <br>12010 Pacific Trails Road <br>
+            Zephyr, CA 95555 <br> <br>
+            888-555-5555 
+            </span>
+        </div>     
+</main>
+<footer>
+
+    Copyright &copy; 2022 Pacific Trails Resort <br>
+    Maureen Flannery Lab 2 <br>
+    <span style="color: #002171"> 
+    s00561095@tri-c.edu
+    </span> 
+</footer>    
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+<!--
+@supports (
+    display: flex) {
+        .flex-container > * {
+            text-shadow: 0 0 2px blue;
+            float: none;
+        }
+	-->

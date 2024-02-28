@@ -1,0 +1,251 @@
+* {box-sizing: border-box;}
+
+body {     /*   total outside box   */ 
+    background-color: #eaeaea;  color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+h1{   /*   pacific trails resort dark blue header   */ 
+    letter-spacing: .25em;
+    margin-top: 0px;
+    text-align: center;  
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    background-color: #002171;
+    color: white;  
+}   
+
+#wrapper {
+    background-image: linear-gradient(to bottom, #FFFFFF,rgb(53, 91, 228));
+    color: rgb(161, 29, 29); 
+   }
+
+nav {  
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    font-size: 120%;
+    } 
+
+nav ul {
+    list-style-type: none;
+    font-size: 2.2em; 
+    margin: 0;
+    padding-left: 0;
+    } 
+
+nav li {
+    border-bottom: #002171 1px solid;
+    }
+
+nav a:link{color: #5c7fa3}
+nav a:visited {color: #344873}
+nav a:hover {color: #a52a2a}
+
+main {    /*orange box with description of place*/ 
+overflow: auto;
+background-color: #f1f3f4;
+padding: 1px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 30px;
+overflow: auto;
+}  
+
+h2 {   /* dogs names  */ 
+    Font-size: 30px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+h3 {     
+    width: 33%; 
+    padding-left: 2em; 
+    padding-right: 2em; 
+    
+    color: #333333;   /*  questions over paragraphs  */ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    h4 {   /* page topic  */ 
+      color: #1976D2;
+      Font-size: 30px; 
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+dt {  /*   4 Bullet points in naration   */
+  font-size: 18px; 
+   color: #333333; 
+   background-repeat: no-repeat;
+    }
+
+div {   /*  does something to separate navation pane  */ 
+    font-size: .90em;
+    color: #333333;
+    }  
+
+footer {
+   
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff; 
+    }
+ 
+#borishero {
+    background-image: url(borisSelfie.jpg);
+    height: 400px;
+    width: 300;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+#yurthero {
+    background-image: url(yurt.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+#BudSleepinghero {
+    background-image: url(BudSleeping.png);
+    height: 3000px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    }
+
+@media (min-width: 600px) {
+   
+    nav ul { 
+        display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-around; }
+
+	nav li { 
+        border-bottom: none; }
+
+}
+@media (min-width: 1024px) {   
+}
+
+table {border: 2px solid #3399CC; text-align: left;}
+td {padding: 0.5em; border: 2px solid #3399CC;text-align: left; }
+th {padding: 0.5em; border: 2px solid #3399CC; text-align: center; }
+tr:nth-of-type(odd){background-color: #f5fafc;}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  #container1 {  /* fake adoption site @ top of page */
+    background-color: #16dc1c;
+    position: relative;
+   font-size: 20px;
+  }
+
+  .container2 {  /* Action button near top of page */ 
+    text-align: center;
+    border: 250px; 
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+    display: inline;
+  }
+   
+  container3 {
+    border: 100px #7cd920; 
+    height: 200px;
+    position: relative;
+    font-size: 25px;
+  }
+
+  #container4 {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #bae0f0; 
+  }
+
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;  
+    color: white;
+    font-size: 24px;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: inline;
+    outline: none;
+    padding: 6px 12px;
+    background-color:  #002171;
+  
+  .filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+  }
+}
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  /* Style the buttons */
+  .btn {
+    position: center; 
+    font-size: 24px;
+    border-radius: 4px;
+    outline: none;
+    padding: 6px 12px;
+    background-color: #0f0ccf;
+    cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #16dc1c;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #eb1022;
+    color: white;
+  }
+
+/*   ******************** Stack Overflow Help ***********************   */ 
+
+/* buttons for save / submit / cancel */ 
+.buttons {
+  width: 200px;
+  margin: 0 auto;
+  display: inline; }
+
+  .action_btn {
+    width: 200px;
+    margin: 0 auto;
+    display: inline;
+  }
+/* buttons for save / submit / cancel */ 
+
+#output{
+    display: inline-block;
+    border: solid 1px #cf1eac;
+    border-radius: 12px;
+    padding:10px;
+    font-size: 3em;
+    text-size-adjust: 10;
+    background-color: #90aeef;
+}}
