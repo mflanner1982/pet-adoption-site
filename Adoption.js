@@ -10,6 +10,37 @@ function hello()
 {
     console.log("hello");
 }
+
+// ************* if else function open ***************** //
+function usernameFunction(){
+if (uname == "Maureen" && psw == "test") {
+  console.log("Hi, Buddy!");
+} else {
+  console.log("Try again, dummy");
+}
+}
+
+
+
+
+// ************* Sif else function closed ***************** //
+
+
+// ************* Modal Login JS open ***************** //
+// Get the modal//
+
+var modal = document.getElementById('id01');
+ 
+window.onclick = function(event) {
+  if (event.target == modal) {
+     modal.style.display = "none";
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it //
+// ************* Modal Login JS close ***************** //
+
+
 //-- *********** Change Message Button ************* -->
 function myFunction() {
   document.getElementById("demo").innerHTML = "Button is working"; 
