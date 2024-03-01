@@ -30,11 +30,16 @@
 
 <!-- ***************** filters ***************-->
 <!-- Control buttons -->
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')">Show all</button>
-  <button class="btn" onclick="filterSelection('DonateMoney')">Ways to Donate Money</button>
-  <button class="btn" onclick="filterSelection('DonateOther')">Other Donations</button>
-</div>
+
+<!-- buttons for save / submit / cancel */ -->
+<div class = "buttons">
+  <div class ="action_btn">
+    <button name= "submit" class="action_btn submit" type="submit" value="save" onclick="myFunction()">save</button>
+    <button name= "submit" class="action_btn cancel" type="submit2" value="'cancel" onclick="myFunction2()">cancel</button>
+    <p id="saved"></p>
+    </div>
+    </div>
+<!-- buttons for save / submit / cancel */ -->
 
 <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
 <div class="container3">

@@ -38,7 +38,6 @@ nav ul {
     font-size: 2.2em; 
     margin: 0;
     padding-left: 0;
-
     } 
 
 nav li {
@@ -55,10 +54,10 @@ overflow: auto;
 background-color: white;
 padding: 1px;
 overflow: auto;
+
 }  
 
 h1 {     /* dogs names at top of page */
-
   padding-left: 2em; 
   padding-right: 2em; 
   color: navy;  
@@ -67,10 +66,12 @@ h1 {     /* dogs names at top of page */
   }
 
 h2 {   
-Font-size: 30px; 
+padding-left: 10px; 
+padding-top: 10px; 
+Font-size: 20px; 
 font-family: Georgia, 'Times New Roman', Times, serif; 
 border-color: pink; 
-border-width: 25px; 
+border-width: 10px; 
 border-style: solid; 
 }
 
@@ -98,22 +99,31 @@ h5 {
   Font-size: 30px; 
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center; 
-
   }
+  
+h6 {   
+    color: rgb(162, 17, 162);
+    Font-size: 50px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+    border-color: rgba(110, 238, 185, 0.886); 
+border-width: 15px; 
+border-style: solid; 
+    }
+
 
 dt {  /*   4 Bullet points in naration   */
 font-size: 40px; 
 color: navy;  
 background-repeat: no-repeat;
 text-align: center; 
-font-family: Georgia, 'Times New Roman', Times, serif;
-
-    }
+font-family: Georgia, 'Times New Roman', Times, serif;  
+}
 
 /*  ******** does something to FILL IN ALL OF BODY ******88  */ 
 div {   /*  does something to separate navation pane  */ 
 font-size: .90em;
-color: #333333;
+color: navy;
 }  
 
 footer {
@@ -124,13 +134,61 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 background-color: #ffffff; 
 }
  
-#borishero {
-background-image: url(borisGutcopy.jpg);
+#BorisGuthero {
+background-image: url(BorisGut.jpg);
 height: 400px;
 width: 300;
 background-repeat: no-repeat;
 background-size: 100%;
 }
+
+#BudSleepinghero {
+  background-image: url(BudSleeping.png);
+  height: 300px;
+  width: 300;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  }
+
+  #MarijuanaDoghero {
+    background-image: url(MarijuanaDog.jpg);
+    height: 400px;
+    width: 200;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+    #LucyMuddyhero {
+      background-image: url(LucyMuddy.jpg);
+      height: 500px;
+      width: 200;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      }
+
+      #BaileyHotelhero {
+        background-image: url(BaileyHotel.jpg);
+        height: 500px;
+        width: 200;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        }
+
+        #BudTransformationhero {
+          background-image: url(BudTransformation.PNG);
+          height: 500px;
+          width: 200;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          }
+
+          #Dollyhero {
+            background-image: url(Dolly.jpg);
+            height: 400px;
+            width: 200;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            }
 
 /* ****** DATA FOR home tabs to be horizonal  ****** */
 @media (min-width: 600px) {
@@ -145,10 +203,17 @@ background-size: 100%;
 @media (min-width: 1024px) {   
 }
 
-table {border: 2px solid #3399CC; text-align: left;}
-td {padding: 0.5em; border: 2px solid #33cc5e;text-align: left; }
+table {
+  border: 2px solid #3399CC; 
+  text-align: left;
+margin-left: auto;
+margin-right: auto;
+}
+td {padding: 0.5em; border: 2px solid #923cb1;text-align: left; }
 th {padding: 0.5em; border: 2px solid #3399CC; text-align: center; }
 tr:nth-of-type(odd){background-color: #f5fafc;}
+
+
 
 .column {
     float: left;
@@ -156,11 +221,16 @@ tr:nth-of-type(odd){background-color: #f5fafc;}
     padding: 5px; }
 
 #container1 {  
+    font-weight: bold; 
     background-color: white;
     position: relative;
     font-size: 40px;
-    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:navy; 
     text-align: center; 
+    border-color: rgb(130, 107, 229);
+    border-style: solid;
+    border: 10px;
     }
 
 .container2 {  /* Action button near top of page */ 
@@ -173,6 +243,18 @@ tr:nth-of-type(odd){background-color: #f5fafc;}
       
     }
 
+  .container3{  
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+      font-size: 60px; 
+      text-align: center; 
+      color: rgb(177, 10, 214);  
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      border-color: rgb(117, 158, 230);  
+      border-width: 10px; 
+      border-style: solid; 
+      }
+    
     #container4 {
       text-align: center;
       font-style: italic;
