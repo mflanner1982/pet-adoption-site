@@ -19,13 +19,7 @@ if (uname == "Maureen" && psw == "test") {
   console.log("Try again, dummy");
 }
 }
-
-
-
-
-// ************* Sif else function closed ***************** //
-
-
+// ************* if else function closed ***************** //
 // ************* Modal Login JS open ***************** //
 // Get the modal//
 
@@ -57,6 +51,14 @@ function byId(id) {
   return document.getElementById(id)
 }
 
+// **** Functions for Dog Filters ***** //
+
+function DogFilters()
+  if(checkbox.checked == true){
+    document.getElementById("demo").innerHTML = "Button is working";   
+  }
+
+
 //window.addEventListener('load', onLoaded, false);
 
 class dogT {
@@ -80,6 +82,13 @@ const dogArray = [
   new dogT('Max', 'Male', 'Senior', 'Golden Retriever', 'Max.html'), 
   new dogT('Birdie', 'Female', 'Senior', 'Pregnant Hog', 'Birdie.html') 
 ];
+
+// ******************************************
+
+
+
+// ******************************************
+
 
 //function onLoaded(evt) {
  // byId('allBtn').addEventListener('click', showAll, false);

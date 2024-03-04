@@ -1,60 +1,59 @@
 * {box-sizing: border-box; }
 
 body {     /*   entire site INCLUDES HEADER  */ 
-    background-color: white;  
-    font-size: 30px; 
-    color: #0f120c; /* text color */
-    font-family: Arial, Helvetica, sans-serif;
-    border-color: rgb(30, 11, 234); 
-    border-width: 10px; 
-    border-style: solid; 
-    }
+  background-color: white;  
+  font-size: 30px; 
+  color: #0f120c; /* text color */
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: rgb(30, 11, 234); 
+  border-width: 10px; 
+  border-style: solid; 
+  }
 
-    header{   /*   WEBSITE TITLE BANNER   */ 
-      letter-spacing: .25em;
-      margin-top: 0px;
-      text-align: center;  
-      padding-top: 0.5em;
-      padding-bottom: 0.5em;
-      padding-left: 3em;
-      background-color: navy;
-      color: white;  
+header{   /*   WEBSITE TITLE BANNER   */ 
+  letter-spacing: .25em;
+  margin-top: 0px;
+  text-align: center;  
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 3em;
+  background-color: navy;
+  color: white;  
   } 
 
 #wrapper {
-    background-image: white; 
-    /* linear-gradient(to bottom, #98abf6,rgb(241, 231, 241)); */
-   }
+  background-image: white; 
+  /* linear-gradient(to bottom, #98abf6,rgb(241, 231, 241)); */
+  }
    
 nav {  
-    text-align: center;
-    font-weight: bold;
-    padding: 0;
-    font-size: 75%;
-    } 
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+  font-size: 75%;
+  } 
 
 nav ul {
-    list-style-type: none;
-    font-size: 2.2em; 
-    margin: 0;
-    padding-left: 0;
-    } 
+  list-style-type: none;
+  font-size: 2.2em; 
+  margin: 0;
+  padding-left: 0;
+  } 
 
 nav li {
   border-bottom: #e0299a 1px solid;
-    }    
+  }    
 
 nav a:link{color: #5c7fa3}
 nav a:visited {color: #344873}
 nav a:hover {color: #a52a2a}
 
 main {
-font-size: 20px; 
-overflow: auto;
-background-color: white;
-padding: 1px;
-overflow: auto;
-
+  font-size: 20px; 
+  overflow: auto;
+  background-color: white;
+  padding: 1px;
+  overflow: auto;
 }  
 
 h1 {     /* dogs names at top of page */
@@ -66,32 +65,32 @@ h1 {     /* dogs names at top of page */
   }
 
 h2 {   
-padding-left: 10px; 
-padding-top: 10px; 
-Font-size: 20px; 
-font-family: Georgia, 'Times New Roman', Times, serif; 
-border-color: pink; 
-border-width: 10px; 
-border-style: solid; 
+  padding-left: 10px; 
+  padding-top: 10px; 
+  Font-size: 20px; 
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  border-color: pink; 
+  border-width: 10px; 
+  border-style: solid; 
 }
 
 h3 {     
-padding-left: 2em; 
-padding-right: 2em; 
-color: navy;  
-font-family: Georgia, 'Times New Roman', Times, serif;
-border-color: rgb(105, 181, 228);  
-border-width: 25px; 
-border-style: solid; 
+  padding-left: 2em; 
+  padding-right: 2em; 
+  color: navy;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-color: rgb(105, 181, 228);  
+  border-width: 25px; 
+  border-style: solid; 
 }
 
 h4 {   
-color: #293a4a;
-Font-size: 30px; 
-font-family: Georgia, 'Times New Roman', Times, serif;
-border-color: rgba(110, 238, 185, 0.886); 
-border-width: 15px; 
-border-style: solid; 
+  color: #293a4a;
+  Font-size: 30px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-color: rgba(110, 238, 185, 0.886); 
+  border-width: 15px; 
+  border-style: solid; 
 }
 
 h5 {   
@@ -99,47 +98,49 @@ h5 {
   Font-size: 30px; 
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center; 
+  padding-bottom: 10px; 
+  border-style: solid;
+  border-color: pink;
+  border: 14px; 
   }
-  
-h6 {   
-    color: rgb(162, 17, 162);
-    Font-size: 50px; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center; 
-    border-color: rgba(110, 238, 185, 0.886); 
-border-width: 15px; 
-border-style: solid; 
-    }
 
+h7 {  
+  font-size: 45px;    
+  text-align: center;
+  color: navy;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 25px; 
+  width: 100%; 
+}
 
 dt {  /*   4 Bullet points in naration   */
-font-size: 40px; 
-color: navy;  
-background-repeat: no-repeat;
-text-align: center; 
-font-family: Georgia, 'Times New Roman', Times, serif;  
+  font-size: 40px; 
+  color: navy;  
+  background-repeat: no-repeat;
+  text-align: center; 
+  font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 
 /*  ******** does something to FILL IN ALL OF BODY ******88  */ 
 div {   /*  does something to separate navation pane  */ 
-font-size: .90em;
-color: navy;
+  font-size: .90em;
+  color: navy;
 }  
 
 footer {
-text-align: center;
-font-style: italic;
-font-size: 15px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-background-color: #ffffff; 
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #ffffff; 
 }
  
 #BorisGuthero {
-background-image: url(BorisGut.jpg);
-height: 400px;
-width: 300;
-background-repeat: no-repeat;
-background-size: 100%;
+  background-image: url(BorisGut.jpg);
+  height: 400px;
+  width: 300;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #BudSleepinghero {
@@ -150,45 +151,45 @@ background-size: 100%;
   background-size: 100%;
   }
 
-  #MarijuanaDoghero {
-    background-image: url(MarijuanaDog.jpg);
-    height: 400px;
-    width: 200;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    }
+#MarijuanaDoghero {
+  background-image: url(MarijuanaDog.jpg);
+  height: 400px;
+  width: 200;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
-    #LucyMuddyhero {
-      background-image: url(LucyMuddy.jpg);
-      height: 500px;
-      width: 200;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      }
+#LucyMuddyhero {
+  background-image: url(LucyMuddy.jpg);
+  height: 500px;
+  width: 200;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
-      #BaileyHotelhero {
-        background-image: url(BaileyHotel.jpg);
-        height: 500px;
-        width: 200;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        }
+#BaileyHotelhero {
+  background-image: url(BaileyHotel.jpg);
+  height: 500px;
+  width: 200;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
-        #BudTransformationhero {
-          background-image: url(BudTransformation.PNG);
-          height: 500px;
-          width: 200;
-          background-repeat: no-repeat;
-          background-size: 100%;
-          }
+#BudTransformationhero {
+  background-image: url(BudTransformation.PNG);
+  height: 500px;
+  width: 200;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
-          #Dollyhero {
-            background-image: url(Dolly.jpg);
-            height: 400px;
-            width: 200;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            }
+#Dollyhero {
+  background-image: url(Dolly.jpg);
+  height: 400px;
+  width: 200;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 /* ****** DATA FOR home tabs to be horizonal  ****** */
 @media (min-width: 600px) {
@@ -206,86 +207,99 @@ background-size: 100%;
 table {
   border: 2px solid #3399CC; 
   text-align: left;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 td {padding: 0.5em; border: 2px solid #923cb1;text-align: left; }
 th {padding: 0.5em; border: 2px solid #3399CC; text-align: center; }
 tr:nth-of-type(odd){background-color: #f5fafc;}
 
-
-
 .column {
-    float: left;
-    width: 50%;
-    padding: 5px; }
+  float: left;
+  width: 50%;
+  padding: 5px; }
 
 #container1 {  
-    font-weight: bold; 
-    background-color: white;
-    position: relative;
-    font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:navy; 
-    text-align: center; 
-    border-color: rgb(130, 107, 229);
-    border-style: solid;
-    border: 10px;
-    }
+  font-weight: bold; 
+  background-color: white;
+  position: relative;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:navy; 
+  text-align: center; 
+  border-color: rgb(130, 107, 229);
+  border-style: solid;
+  border: 10px;
+}
 
 .container2 {  /* Action button near top of page */ 
-      text-align: center;
-      border: 250px; 
-      height: 100px;
-      position: relative;
-      margin: 0 auto;
-      display: inline;
-      
-    }
+  text-align: center;
+  border: 250px; 
+  height: 100px;
+  position: relative;
+  margin: 0 auto;
+  display: inline;
+}
 
-  .container3{  
-    padding-top: 20px; 
-    padding-bottom: 20px; 
-      font-size: 60px; 
-      text-align: center; 
-      color: rgb(177, 10, 214);  
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      border-color: rgb(117, 158, 230);  
-      border-width: 10px; 
-      border-style: solid; 
-      }
+.container3{  
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+  font-size: 60px; 
+  text-align: center; 
+  color: rgb(177, 10, 214);  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-color: rgb(117, 158, 230);  
+  border-width: 10px; 
+  border-style: solid; 
+}
     
-    #container4 {
-      text-align: center;
-      font-style: italic;
-      font-size: 20px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      background-color: #bae0f0; 
-    }
+#container4 {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #bae0f0; 
+  border-style: solid;
+  border-color: rgb(189, 41, 66); 
+  border: 25px; 
+}
 
-    button {
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-      position: relative;  
-      color: white;
-      font-size: 24px;
-      border-radius: 40px;
-      margin: 0 auto;
-      display: inline;
-      outline: none;
-      padding: 6px 12px;
-      background-color:  #002171;
+.container5 {
+  color: navy; 
+  list-style: none;
+  display:flex;
+  flex-wrap: nowrap;
+  flex-direction: row; 
+  font-size: 25px; 
+  padding-top: 10px;
+  padding-bottom: 10px;  
+  width: 100%;
+  padding-left: 40px; 
+}
 
-  .filterDiv {
-    float: left;
-    background-color: #2196F3;
-    color: #ffffff;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px;
-    display: none; /* Hidden by default */
+button {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;  
+  color: white;
+  font-size: 24px;
+  border-radius: 40px;
+  margin: 0 auto;
+  display: inline;
+  outline: none;
+  padding: 6px 12px;
+  background-color:  #002171;
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none; /* Hidden by default */
   }
 
 }
