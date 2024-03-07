@@ -2,8 +2,40 @@ console.log("Inside jsdom.css!");
 hello();
 // ---------------------------------------------------------------------------
 
+$(function(){
+
+  $("#button1").on("click", function(){
+     //URL: "https://api.openbrewerydb.org/breweries";//no query string
+     
+     var url = "https://Users/maureenflannery/Desktop/PetAdoptionWebsiteCopy-main/Dog2Choose.html"
+    $.ajax(
+      {
+        url: url,
+        type: "Get",
+        success: function(data)
+        {
+          $("#results").text("");
+          console.log(data);
+          $.each(data,function(i,item){//parse items inside data array
+            var para = $("<p></p>");
+            para.text(this.age +" "+ this.gender  +" "+ this.name);
+            $("#results").append(para);
+         });                 }         });       }); 
+// ---------------------------------------------------------------------------
+
+
+
+
+
+document.onload = function(){
     //All JS DOM code should go inside this function
     //Any function can be written outside this area        
+}
+
+function hello()
+{
+    console.log("hello");
+}
 
 // ************* if else function open ***************** //
 function usernameFunction(){
@@ -89,6 +121,9 @@ const dogArray = [
   //byId('fBtn').addEventListener('click', showFemale, false);
   //byId('mBtn').addEventListener('click', showMale, false);
 //}
+function showAll(evt) {
+  showDogArray(dogArray);
+}
 
 function showMale(evt) {
   let inputArray = dogArray.filter((curDog) => curDog.gender == 'Male');

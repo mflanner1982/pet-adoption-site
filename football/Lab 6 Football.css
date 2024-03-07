@@ -1,0 +1,15 @@
+
+
+body {     /*   total outside box   */ 
+    background-color: #eaeaea;  color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+footer {
+    padding: 2em;
+    text-align: center;
+    font-style: italic;
+    font-size: .75em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff; 
+    }
