@@ -1,3 +1,17 @@
+/* copy of Adoption.css*/
+#output {
+  display: grid; /* inline-block; */
+  grid-template-rows: auto auto;  
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
+  border: solid 1px #aaa;
+  border-radius: 6px;
+  padding: 4px;
+  font-size: 40px; 
+  -ms-grid-column-align: center;
+  text-align: left;
+}
+
 * {box-sizing: border-box; }
 
 body {     /*   entire site INCLUDES HEADER  */ 
@@ -241,7 +255,7 @@ tr:nth-of-type(odd){background-color: #f5fafc;}
   display: inline;
 }
 
-.container3 {  
+.container3{  
   padding-top: 20px; 
   padding-bottom: 20px; 
   font-size: 60px; 
@@ -277,22 +291,6 @@ tr:nth-of-type(odd){background-color: #f5fafc;}
   padding-left: 40px; 
 }
 
-.grid-container6 {  
-  display: inline-grid; 
-  grid-column: 10px; 
-  text-align: center;
-  width: 100%; 
-  border: 10px; 
-  position: relative;
-  margin: 0 auto;
-  border-color: purple;
-  border-style: solid; 
-column-gap: 10px;
-row-gap: 10px; 
-column-rule-color: #e0299a;
-background-color: green; 
-}
-
 button {
   margin-left: auto;
   margin-right: auto;
@@ -319,15 +317,35 @@ button {
   }
 }
 
-#output {
-  display: grid; /* inline-block; */
-  grid-template-rows: auto auto;  
-  grid-template-columns: repeat(5, 1fr);
-  justify-content: space-between;
-  border: solid 1px #aaa;
-  border-radius: 6px;
-  padding: 4px;
-  font-size: 40px; 
-  -ms-grid-column-align: center;
-  text-align: left;
-}
+#myDIV {
+    float: right; 
+    width: 30%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: pink;
+    margin-top: 20px;
+  }
+  
+  #ToggleBtn {
+    display: none; 
+    float: right; 
+    width: 40%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(197, 66, 237);
+    margin-top: 40px;
+    font-size: 40px; 
+    color: white; 
+  }
+
+  #SpecialNeedsBtn {
+    display: none; 
+    float: right; 
+    width: 40%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(197, 66, 237);
+    margin-top: 40px;
+    font-size: 40px; 
+    color: white; 
+  }
