@@ -104,14 +104,41 @@ h5 {
   border: 14px; 
   }
 
-h7 {  
-  font-size: 45px;    
-  text-align: center;
-  color: navy;  
+h6 {
+  font-style: bold; 
+  font-size: 20%; 
+  text-align: center; 
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top: 25px; 
-  width: 100%; 
 }
+
+#FactsAboutGrid {  
+  font-weight: bold; 
+  background-color: white;
+  width: 100%;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:navy; 
+  text-align: center; 
+  border-color: rgb(130, 107, 229);
+  border-style: solid;
+  border: 10px;
+}
+
+h7 {  /* Facts About Dog */  
+text-align: center;
+color: navy;  
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-top: 25px; 
+width: 100%; 
+}
+
+h8 {
+  font-style: bold; 
+  font-size: 20%; 
+  text-align: center; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
 dt {  /*   4 Bullet points in naration   */
   font-size: 40px; 
@@ -278,21 +305,15 @@ tr:nth-of-type(odd){background-color: #f5fafc;}
 }
 
 .grid-container6 {  
-  display: inline-grid; 
-  grid-column: 10px; 
+  display: grid; 
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
   text-align: center;
   width: 100%; 
   border: 10px; 
-  position: relative;
-  margin: 0 auto;
-  border-color: purple;
+  border-color: navy;
   border-style: solid; 
-column-gap: 10px;
-row-gap: 10px; 
-column-rule-color: #e0299a;
-background-color: green; 
 }
-
 button {
   margin-left: auto;
   margin-right: auto;

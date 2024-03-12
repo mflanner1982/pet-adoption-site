@@ -5,14 +5,17 @@ var MaleArray = [
   "<a href='Max.html'> <img src='Max.png' alt='image.gif' style='width:20%'></a>",
 ];
 
+var x = document.getElementById("MalesBtn");
+
 function showMalesFunction() {
   var x = document.getElementById("MalesBtn");
   if (x.style.display === "none") {
     x.style.display = "block"
-    document.getElementById("MalesBtn").innerHTML = MaleArray; 
+    x.innerHTML = MaleArray; 
   } else {
     x.style.display = "none";
   } }
+
 //---------------------------------------------------------//
 var FemaleArray = [
   "<a href='Lucy.html'><img src='LucyPage.jpg' alt='image.gif' style='width:20%'></a>",
@@ -26,7 +29,7 @@ function showFemalesFunction() {
   var x = document.getElementById("FemalesBtn");
   if (x.style.display === "none") {
     x.style.display = "block"
-    document.getElementById("FemalesBtn").innerHTML = FemaleArray; 
+    x.innerHTML = FemaleArray; 
   } else {
     x.style.display = "none";
   } }
@@ -42,7 +45,7 @@ function showPuppiesFunction() {
   var x = document.getElementById("PuppiesBtn");
   if (x.style.display === "none") {
     x.style.display = "block"
-    document.getElementById("PuppiesBtn").innerHTML = PuppiesArray; 
+    x.innerHTML = PuppiesArray; 
   } else {
     x.style.display = "none";
   } }
@@ -59,7 +62,7 @@ function showAdultFunction() {
   var x = document.getElementById("AdultBtn");
   if (x.style.display === "none") {
     x.style.display = "block"
-    document.getElementById("AdultBtn").innerHTML = AdultArray; 
+    x.innerHTML = AdultArray; 
   } else {
     x.style.display = "none";
   } }
@@ -73,7 +76,7 @@ function showSeniorFunction() {
   var x = document.getElementById("SeniorBtn");
   if (x.style.display === "none") {
     x.style.display = "block"
-    document.getElementById("SeniorBtn").innerHTML = SeniorArray; 
+    x.innerHTML = SeniorArray; 
   } else {
     x.style.display = "none";
   } }
@@ -87,7 +90,7 @@ function SpecialNeedsFunction() {
   var x = document.getElementById("SpecialNeedsBtn");
   if (x.style.display === "none") {
     x.style.display = "block"
-    document.getElementById("SpecialNeedsBtn").innerHTML = SpecialNeedsArray; 
+    x.innerHTML = SpecialNeedsArray; 
   } else {
     x.style.display = "none";
   } }

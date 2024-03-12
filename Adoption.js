@@ -77,24 +77,8 @@ function showDogArray(inputArray) {
     }
   )
 }
-//----------------------- STACKOVERFLOW HELP CLOSED ---------------------------------------//
+
 //----------------------- DOGS2CHOOSE BUTTONS OPEN ---------------------------------------//
-var LinkArray = [
-  "<a href='Boris.html'><img src='BorisGut.jpg' alt='marker.gif' style='width:40%'></a>", 
-  "<a href='Lucy.html'><img src='LucyPage.jpg' alt='image.gif' style='width:40%'></a>",
-  "<a href='Daisy.html'><img src='DaisyBirthdayHat.jpeg' alt='image.gif' style='width:40%'></a>",
-  "<a href='Honey.html'><img src='Honey.png' alt='image.gif' style='width:40%'></a>",
-  "<a href='Harley.html'><img src='Harley Santa hat.jpg' alt='image.gif' style='width:40%'></a>",
-  "<a href='Dolly.html'><img src='Dolly.jpg' alt='image.gif' style='width:40%'></a>",
-  "<a href='Max.html'> <img src='Max.png' alt='image.gif' style='width:40%'></a>",
-  "<a href='Birdie.html'> <img src= 'Birdie Girdie.jpg' alt='image.gif' style='width:40%'></a>"
-];
-
-function showLinksFunction() {
-  document.getElementById("allLinksBtn").innerHTML = LinkArray
-  }
-
-//---------------------------------------------------------//
 var MaleArray = [
   "<a href='Boris.html'><img src='BorisGut.jpg' alt='marker.gif' style='width:20%'></a>", 
   "<a href='Harley.html'><img src='Harley Santa hat.jpg' alt='image.gif' style='width:20%'></a>",
