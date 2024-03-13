@@ -85,12 +85,16 @@ h3 {
 }
 
 h4 {   
-  color: #293a4a;
-  Font-size: 30px; 
+  position: top; 
+  color: navy;
+  Font-size: 300%; 
   font-family: Georgia, 'Times New Roman', Times, serif;
-  border-color: rgba(110, 238, 185, 0.886); 
+  border-color: blue;  
   border-width: 15px; 
   border-style: solid; 
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
 }
 
 h5 {   
@@ -106,12 +110,21 @@ h5 {
 
 h6 {
     font-style: bold; 
-    font-size: 400%; 
-    background-color: magenta; 
+    font-size: 300%; 
     color: navy; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     position: top; 
+  }
+
+h7 {  /* Facts About Dog */
+    font-size: 55px;    
+    text-align: center;
+    color: navy;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    width: 100%; 
   }
 
   #FactsAboutGrid {  
@@ -126,34 +139,15 @@ h6 {
     border-style: solid;
     border: 10px;
   }
-  #dogGrid {  
-    background-color: red; 
-    font-weight: bold; 
-    width: 100%;
-    position: relative;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:navy; 
-    text-align: center; 
-    border-color: rgb(130, 107, 229);
-    border-style: solid;
-    border: 10px;
-    position: top; 
-  }
-h7 {  /* Facts About Dog */
-  font-size: 45px;    
-  text-align: center;
-  color: navy;  
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top: 25px; 
-  width: 100%; 
-}
 
-h8 {
-  font-style: bold; 
-  font-size: 20%; 
-  text-align: center; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+.dogGrid {  
+    padding: 10px; 
+    font-size: 30px; ;
+    font-weight: bold; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(117, 117, 255); 
+    text-align: center; 
+  }
 
 dt {  /*   4 Bullet points in naration   */
   font-size: 40px; 
